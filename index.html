@@ -37,7 +37,7 @@
 
         }
 
-        .mytitle > button {
+        .mytitle>button {
             width: 250px;
             height: 50px;
 
@@ -71,7 +71,7 @@
             box-shadow: 0px 0px 10px 0px grey;
             margin-top: 20px;
         }
-        
+
         .mybtn {
             display: flex;
             flex-direction: row;
@@ -79,10 +79,9 @@
             justify-content: center;
         }
 
-        .mybtn > button {
+        .mybtn>button {
             margin-right: 10px;
         }
-        
     </style>
 </head>
 
@@ -95,6 +94,17 @@
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">영화 url</label>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">별점</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>--선택--</option>
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+            </select>
         </div>
         <div class="form-floating">
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
